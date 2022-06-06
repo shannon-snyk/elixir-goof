@@ -31,6 +31,7 @@ defmodule Api.Mixfile do
     [
       {:core, in_umbrella: true},
       {:pow, "1.0.15"},
-    ]
+      {:sweet_xml, "~> 0.6.6"}
+          ]
   end
 end
